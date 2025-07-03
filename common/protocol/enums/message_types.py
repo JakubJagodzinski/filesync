@@ -1,0 +1,11 @@
+from enum import StrEnum
+
+
+class MessageType(StrEnum):
+    CLIENT_FILES_INFO = "CLIENT_FILES_INFO"
+    DISCOVER = "DISCOVER"
+    FILE_HEADER = "FILE_HEADER"
+    NEXT_SYNC = "NEXT_SYNC"
+    OFFER = "OFFER"
+    SERVER_STATUS = "SERVER_STATUS_MESSAGE"
+    TASKS = "TASKS"
